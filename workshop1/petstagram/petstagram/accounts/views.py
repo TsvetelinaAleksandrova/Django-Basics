@@ -19,3 +19,4 @@ def profile_details(request, pk: int):
 
 def profile_edit(request, pk: int):
     return render(request, 'accounts/profile-edit-page.html')
+

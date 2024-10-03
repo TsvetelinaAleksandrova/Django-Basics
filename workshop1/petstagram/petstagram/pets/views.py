@@ -9,7 +9,7 @@ def pet_edit_page(request, username: str, pet_slug: str):
     return render(request, 'pets/pet-edit-page.html')
 
 
-def pet_delete_page(request,username: str, pet_slug: str):
+def pet_delete_page(request, username: str, pet_slug: str):
     return render(request, 'pets/pet-delete-page.html')
 
 

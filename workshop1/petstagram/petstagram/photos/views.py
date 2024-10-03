@@ -11,3 +11,4 @@ def photo_edit_page(request, pk: int):
 
 def photo_details_page(request, pk: int):
     return render(request, 'photos/photo-details-page.html')
+
